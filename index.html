@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Contactform</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <div class ="header">
+        <div class ="header-logo">
+            <img src="./img/header-logo.png">
+        </div>
+        <div class = "header-list">
+            <ul>
+                <li><a href="https://tamtak8.github.io/about">About</a></li>
+                <li><a href="https://tamtak8.github.io/website/">ホーム</a></li>
+            </ul>
+        </div>
+
+  <div class="main">
+    <div class="contact-form">
+      <div class="form-title">お問い合わせ</div>
+      <form method="post" action="sent.html">
+        <div class="form-item">お名前</div>
+        <input type="text" name="name">
+
+        <div class="form-item">メールアドレス</div>
+        <input type="text" name="email">
+          
+        <div class="form-item">内容</div>
+        <textarea name="body"></textarea>
+
+        <input type="submit" value="送信">
+      </form>
+    </div>
+  </div>
+  
+</body>
+</html>
