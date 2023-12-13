@@ -72,6 +72,7 @@ h3 {
 
 .main {
   max-width: 1040px;
+  height: auto;
   margin: 0 auto;
   padding:96px 0;
 }
@@ -256,8 +257,4 @@ h3 {
 .python-item {
   float:left;
   margin-right:40px;
-}
-
-.javascript {
-  padding-top: 100px;
 }
