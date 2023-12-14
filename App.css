@@ -68,12 +68,10 @@ h3 {
 
 .main-wrapper {
   background-color: #f4fafa;
-  height: 500px;
 }
 
 .main {
   max-width: 1040px;
-  height: auto;
   margin: 0 auto;
   padding:96px 0;
 }
