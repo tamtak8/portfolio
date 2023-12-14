@@ -66,9 +66,11 @@ h3 {
   border-radius: 5px;
 }
 
+.main-wrapper {
+  background-color: #f4fafa;
+}
 
 .main {
-  background-color: #f4fafa;
   max-width: 1040px;
   height: auto;
   margin: 0 auto;
